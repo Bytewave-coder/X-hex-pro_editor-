@@ -1,0 +1,6 @@
+{
+  "name": "Hex Editor",
+  "description": "Ultra advanced professional Hex Editor application for analyzing and editing binary files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

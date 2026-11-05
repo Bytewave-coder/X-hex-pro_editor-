@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Hexagon Shadow -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M54,23 L80,38 L80,68 L54,83 L28,68 L28,38 Z" />
+
+    <!-- Outer Beveled Hexagon Shield Container -->
+    <path
+        android:pathData="M54,21 L80,36 L80,66 L54,81 L28,66 L28,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="21"
+                android:endX="80"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="0.5" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#090D16" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Hexagon Stroke Border -->
+    <path
+        android:strokeWidth="2.2"
+        android:pathData="M54,21 L80,36 L80,66 L54,81 L28,66 L28,36 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="28"
+                android:startY="21"
+                android:endX="80"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="0.5" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Circuit Trace Lines -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"
+        android:pathData="M34,44 L42,44 L46,48 M74,44 L66,44 L62,48 M34,58 L42,58 L46,54 M74,58 L66,58 L62,54" />
+
+    <!-- Binary Circuit Node Dots -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M34,44 A1.5,1.5 0 1,1 33.99,44 M74,44 A1.5,1.5 0 1,1 73.99,44 M34,58 A1.5,1.5 0 1,1 33.99,58 M74,58 A1.5,1.5 0 1,1 73.99,58" />
+
+    <!-- Center Premium "0x" and Matrix Core Elements -->
+    <!-- Stylized "0" Character -->
+    <path
+        android:pathData="M43,43 C40.8,43 39,45.2 39,48 L39,54 C39,56.8 40.8,59 43,59 C45.2,59 47,56.8 47,54 L47,48 C47,45.2 45.2,43 43,43 Z M43,56 C42.2,56 41.5,54.8 41.5,53.5 L41.5,48.5 C41.5,47.2 42.2,46 43,46 C43.8,46 44.5,47.2 44.5,48.5 L44.5,53.5 C44.5,54.8 43.8,56 43,56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="39"
+                android:startY="43"
+                android:endX="47"
+                android:endY="59"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5FF" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized "x" Cross Character -->
+    <path
+        android:pathData="M50,46.5 L52.2,46.5 L54.5,50.2 L56.8,46.5 L59,46.5 L55.7,51 L59.2,56 L57,56 L54.5,52.2 L52,56 L49.8,56 L53.3,51 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="46.5"
+                android:endX="59"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Hex Nibble Matrix Indicator Bars (FF data blocks) -->
+    <path
+        android:pathData="M63,44 h5 v2 h-5 z M63,48 h4 v2 h-4 z M63,52 h5 v2 h-5 z M63,56 h3 v2 h-3 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="63"
+                android:startY="44"
+                android:endX="68"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Accent Sparkle / Lens Flare on Hexagon Apex -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M54,20 L55.5,23.5 L59,25 L55.5,26.5 L54,30 L52.5,26.5 L49,25 L52.5,23.5 Z" />
+
+</vector>
